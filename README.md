@@ -1,5 +1,5 @@
-# Anemoi Case Study
-This repository contains scripts, notebooks and files to evaluate the forecasts for the Donnie Creek wildfire. 
+# Atmospheric River Anemoi Case Study
+This repository contains scripts, notebooks and files to evaluate and compare NWP and Anemoi forecasts for the October 17-19th, 2023 atmospheric river event on the British Columbia coast.
 
 **Useful Links** 
 
@@ -32,29 +32,21 @@ Anemoi is an open-source platform used for machine learning weather forecasting 
 ## Methodology
 
 **Important time periods (UTC)**
-* Ignition: 2023-05-13
-* First run: 2023-05-13 ~ 2023-05-20 (worsen on 2023-05-15)
-* Second run: 2023-05-21 ~ 2023-06-02 (not as severe as the other runs)
-* Third run: 2023-06-04 ~ 2023-06-13 (worsen on 2023-06-07)
-* Last significant fire: 2023-06-18
+
 
 **Variables**
-* Surface temperature 
-* Fire and thermal anomalies (derived from brightness temperature)
-* Relative humidity
-* Water vapour
-* Wind vector
+
 
 ## Observation Data
 
-**BC Wildfire stations**: https://www.for.gov.bc.ca/ftp/HPR/external/!publish/BCWS_DATA_MART/2023/ 
+
 
 Stations used: 
 | ID  | Name          | Lat   | Lon      | Alt (m)   |
 |-----|---------------|-------|----------|-----------|
-| 129 | Pink Mountain | 56.94 | -122.70  | 960.10    |
-| 120 | Silver        | 57.37 | -121.41  | 835.00    |
-| 131 | Muskwa        | 57.88 | -123.62  | 769.00    |
+|     |               |       |          |           |
+|     |               |       |          |           |
+|     |               |       |          |           |
 
 **Satellite imagery**: https://drive.google.com/drive/folders/1oRro8_L23_qQ4Xyd_UUPo40_4Q-Zt_dE
 
@@ -64,5 +56,6 @@ Stations used:
 
 **Author**
 
-Jessie Chen\
-&emsp;Assisted by Claude by Anthropic (claude-sonnet-4-6, claude.ai) for coding and documentation.
+Cosmo Pearson-Young
+
+Adapted from the anemoi_case_study repository by Jessie Chen.
