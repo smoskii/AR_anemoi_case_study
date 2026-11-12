@@ -62,14 +62,6 @@ Stations used:
 
 **Authors**
 
-<<<<<<< HEAD
 Cosmo Pearson-Young
 
 Adapted from the anemoi_case_study repository by Jessie Chen.
-=======
-Jessie Chen\
-&emsp;Assisted by Claude by Anthropic (claude-sonnet-4-6, claude.ai) for coding and documentation.
-
-Cosmo Pearson-Young\
-&emsp;Assisted by Claude by Anthropic (claude-sonnet-4-6, claude.ai) for coding and documentation.
->>>>>>> 31cf367 (Updated README.md to include requirements)
