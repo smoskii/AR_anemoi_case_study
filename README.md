@@ -25,7 +25,13 @@ Link to Verif data format: https://github.com/WFRT/verif/wiki/Arranging-my-own-d
 The case study is part of the evaluation of machine learning based forecasts produced by a "stretched-grid" model. \
 Anemoi is an open-source platform used for machine learning weather forecasting models.
 
-**Prerequisites**
+**Requirements**
+
+- numpy
+- matplotlib
+- rasterio
+- xarray
+- cartopy
 
 **Environment Variables**
 
@@ -54,7 +60,7 @@ Stations used:
 * WRF: nextcloud:~/Share_Forecasts/WAC00WG-01
 * Anemoi
 
-**Author**
+**Authors**
 
 Cosmo Pearson-Young
 
